@@ -1,0 +1,421 @@
+complaint_id,date,product,channel,customer_region,complaint_text,sentiment_score,risk_keyword,exception_flag,exception_reason
+C0001,2025-02-17,Credit Card,Phone,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0002,2025-01-02,Credit Card,Mobile App,Auckland,App was slow during login,-0.3,None,False,Not flagged
+C0003,2025-02-05,Credit Card,Email,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0004,2025-01-18,Home Loan,Mobile App,Hamilton,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0005,2025-01-14,Credit Card,Email,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0006,2025-02-24,Personal Loan,Phone,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0007,2025-02-04,Personal Loan,Mobile App,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0008,2025-02-26,Credit Card,Chat,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0009,2025-02-12,Personal Loan,Mobile App,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0010,2025-01-25,Home Loan,Branch,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0011,2025-01-14,Personal Loan,Chat,Christchurch,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0012,2025-02-16,Personal Loan,Phone,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0013,2025-01-15,Home Loan,Email,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0014,2025-01-26,Personal Loan,Phone,Wellington,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0015,2025-02-26,Personal Loan,Phone,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0016,2025-01-10,Personal Loan,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0017,2025-01-17,Personal Loan,Email,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0018,2025-01-09,Mobile Banking,Chat,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0019,2025-01-10,Mobile Banking,Chat,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0020,2025-02-08,Home Loan,Chat,Dunedin,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0021,2025-02-13,Savings Account,Mobile App,Christchurch,App was slow during login,-0.3,None,False,Not flagged
+C0022,2025-01-08,Credit Card,Mobile App,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0023,2025-02-02,Personal Loan,Chat,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0024,2025-02-23,Home Loan,Mobile App,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0025,2025-02-04,Mobile Banking,Mobile App,Wellington,Refund delay on disputed transaction,0.0,Refund process issue,True,Refund process issue
+C0026,2025-01-08,Mobile Banking,Phone,Dunedin,App was slow during login,-0.3,None,False,Not flagged
+C0027,2025-01-06,Personal Loan,Branch,Wellington,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0028,2025-02-19,Credit Card,Chat,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0029,2025-01-17,Home Loan,Email,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0030,2025-02-18,Mobile Banking,Mobile App,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0031,2025-01-29,Home Loan,Branch,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0032,2025-01-22,Mobile Banking,Chat,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0033,2025-01-01,Credit Card,Mobile App,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0034,2025-02-25,Credit Card,Phone,Wellington,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0035,2025-01-14,Personal Loan,Phone,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0036,2025-02-20,Mobile Banking,Email,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0037,2025-01-23,Savings Account,Chat,Wellington,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0038,2025-02-13,Savings Account,Chat,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0039,2025-01-16,Credit Card,Phone,Hamilton,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0040,2025-01-12,Home Loan,Email,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0041,2025-01-29,Personal Loan,Chat,Wellington,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0042,2025-02-23,Mobile Banking,Phone,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0043,2025-01-31,Credit Card,Phone,Wellington,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0044,2025-01-25,Home Loan,Chat,Auckland,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0045,2025-02-12,Personal Loan,Chat,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0046,2025-02-07,Savings Account,Email,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0047,2025-01-31,Mobile Banking,Phone,Christchurch,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0048,2025-01-06,Mobile Banking,Mobile App,Wellington,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0049,2025-01-26,Home Loan,Phone,Dunedin,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0050,2025-02-09,Credit Card,Mobile App,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0051,2025-03-01,Credit Card,Chat,Dunedin,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0052,2025-01-09,Personal Loan,Email,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0053,2025-01-01,Personal Loan,Chat,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0054,2025-02-04,Savings Account,Mobile App,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0055,2025-02-26,Home Loan,Mobile App,Christchurch,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0056,2025-02-23,Credit Card,Email,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0057,2025-01-01,Mobile Banking,Branch,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0058,2025-01-17,Mobile Banking,Branch,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0059,2025-02-08,Credit Card,Phone,Dunedin,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0060,2025-02-02,Home Loan,Branch,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0061,2025-02-23,Savings Account,Branch,Auckland,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0062,2025-02-10,Personal Loan,Phone,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0063,2025-02-05,Personal Loan,Email,Hamilton,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0064,2025-02-04,Credit Card,Phone,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0065,2025-01-09,Credit Card,Branch,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0066,2025-02-27,Credit Card,Branch,Christchurch,App was slow during login,-0.3,None,False,Not flagged
+C0067,2025-02-19,Personal Loan,Email,Wellington,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0068,2025-02-25,Mobile Banking,Chat,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0069,2025-02-20,Home Loan,Email,Hamilton,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0070,2025-01-25,Savings Account,Email,Christchurch,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0071,2025-01-23,Credit Card,Chat,Wellington,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0072,2025-01-26,Personal Loan,Email,Wellington,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0073,2025-01-23,Personal Loan,Branch,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0074,2025-01-08,Mobile Banking,Chat,Dunedin,App was slow during login,-0.3,None,False,Not flagged
+C0075,2025-01-03,Personal Loan,Email,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0076,2025-01-28,Credit Card,Mobile App,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0077,2025-01-13,Mobile Banking,Mobile App,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0078,2025-02-13,Personal Loan,Phone,Hamilton,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0079,2025-02-09,Home Loan,Branch,Hamilton,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0080,2025-01-21,Personal Loan,Phone,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0081,2025-02-12,Savings Account,Branch,Dunedin,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0082,2025-02-05,Savings Account,Email,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0083,2025-02-08,Credit Card,Branch,Christchurch,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0084,2025-02-02,Personal Loan,Chat,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0085,2025-01-22,Savings Account,Email,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0086,2025-01-10,Credit Card,Email,Christchurch,Could not update my contact details easily,0.433,None,False,Not flagged
+C0087,2025-02-24,Credit Card,Phone,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0088,2025-01-13,Credit Card,Chat,Hamilton,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0089,2025-02-27,Savings Account,Chat,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0090,2025-01-30,Credit Card,Chat,Wellington,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0091,2025-01-30,Credit Card,Mobile App,Wellington,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0092,2025-01-21,Home Loan,Chat,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0093,2025-01-29,Savings Account,Mobile App,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0094,2025-02-23,Home Loan,Chat,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0095,2025-01-29,Personal Loan,Mobile App,Hamilton,Branch queue was too long,-0.05,None,False,Not flagged
+C0096,2025-02-27,Credit Card,Branch,Wellington,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0097,2025-02-14,Mobile Banking,Phone,Wellington,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0098,2025-02-04,Home Loan,Email,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0099,2025-01-25,Savings Account,Chat,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0100,2025-01-23,Mobile Banking,Phone,Dunedin,App was slow during login,-0.3,None,False,Not flagged
+C0101,2025-02-21,Personal Loan,Chat,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0102,2025-02-01,Mobile Banking,Email,Hamilton,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0103,2025-02-16,Credit Card,Chat,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0104,2025-01-02,Home Loan,Chat,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0105,2025-02-11,Savings Account,Mobile App,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0106,2025-01-25,Savings Account,Email,Hamilton,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0107,2025-01-18,Personal Loan,Email,Hamilton,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0108,2025-01-04,Savings Account,Branch,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0109,2025-02-18,Personal Loan,Email,Auckland,App was slow during login,-0.3,None,False,Not flagged
+C0110,2025-01-10,Credit Card,Email,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0111,2025-01-14,Home Loan,Email,Hamilton,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0112,2025-02-17,Savings Account,Branch,Christchurch,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0113,2025-03-01,Credit Card,Email,Christchurch,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0114,2025-01-05,Personal Loan,Mobile App,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0115,2025-02-24,Mobile Banking,Email,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0116,2025-02-04,Mobile Banking,Phone,Dunedin,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0117,2025-01-01,Savings Account,Branch,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0118,2025-02-10,Savings Account,Chat,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0119,2025-02-11,Savings Account,Email,Hamilton,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0120,2025-01-28,Personal Loan,Mobile App,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0121,2025-01-18,Mobile Banking,Branch,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0122,2025-01-22,Savings Account,Email,Hamilton,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0123,2025-01-23,Credit Card,Chat,Christchurch,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0124,2025-02-05,Personal Loan,Branch,Christchurch,Branch queue was too long,-0.05,None,False,Not flagged
+C0125,2025-02-01,Credit Card,Mobile App,Wellington,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0126,2025-01-29,Mobile Banking,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0127,2025-01-20,Credit Card,Phone,Christchurch,Could not update my contact details easily,0.433,None,False,Not flagged
+C0128,2025-01-28,Mobile Banking,Branch,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0129,2025-01-20,Mobile Banking,Branch,Christchurch,Branch queue was too long,-0.05,None,False,Not flagged
+C0130,2025-01-08,Personal Loan,Email,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0131,2025-01-18,Mobile Banking,Email,Wellington,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0132,2025-02-23,Mobile Banking,Mobile App,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0133,2025-01-01,Home Loan,Branch,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0134,2025-02-05,Mobile Banking,Email,Christchurch,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0135,2025-02-06,Personal Loan,Email,Hamilton,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0136,2025-01-04,Personal Loan,Chat,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0137,2025-02-01,Personal Loan,Chat,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0138,2025-01-20,Credit Card,Mobile App,Auckland,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0139,2025-02-08,Credit Card,Email,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0140,2025-01-29,Mobile Banking,Mobile App,Wellington,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0141,2025-02-06,Savings Account,Branch,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0142,2025-02-18,Mobile Banking,Phone,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0143,2025-01-16,Home Loan,Email,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0144,2025-01-29,Home Loan,Mobile App,Auckland,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0145,2025-02-15,Mobile Banking,Chat,Christchurch,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0146,2025-02-20,Personal Loan,Chat,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0147,2025-02-11,Mobile Banking,Email,Hamilton,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0148,2025-02-20,Home Loan,Branch,Wellington,Refund delay on disputed transaction,0.0,Refund process issue,True,Refund process issue
+C0149,2025-01-08,Personal Loan,Mobile App,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0150,2025-02-04,Savings Account,Branch,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0151,2025-02-17,Savings Account,Chat,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0152,2025-02-13,Personal Loan,Mobile App,Christchurch,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0153,2025-02-06,Mobile Banking,Mobile App,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0154,2025-02-28,Credit Card,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0155,2025-01-06,Personal Loan,Email,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0156,2025-02-24,Savings Account,Branch,Hamilton,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0157,2025-02-12,Home Loan,Branch,Hamilton,Branch queue was too long,-0.05,None,False,Not flagged
+C0158,2025-01-17,Savings Account,Mobile App,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0159,2025-02-12,Personal Loan,Phone,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0160,2025-01-24,Mobile Banking,Chat,Hamilton,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0161,2025-01-18,Mobile Banking,Chat,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0162,2025-01-08,Mobile Banking,Email,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0163,2025-02-05,Credit Card,Mobile App,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0164,2025-01-30,Credit Card,Mobile App,Hamilton,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0165,2025-02-02,Credit Card,Email,Hamilton,Branch queue was too long,-0.05,None,False,Not flagged
+C0166,2025-01-30,Personal Loan,Chat,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0167,2025-02-02,Mobile Banking,Email,Hamilton,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0168,2025-01-22,Home Loan,Phone,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0169,2025-02-23,Mobile Banking,Branch,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0170,2025-02-04,Mobile Banking,Mobile App,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0171,2025-01-25,Savings Account,Branch,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0172,2025-02-06,Savings Account,Branch,Wellington,Could not update my contact details easily,0.433,None,False,Not flagged
+C0173,2025-02-15,Savings Account,Email,Hamilton,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0174,2025-01-09,Savings Account,Chat,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0175,2025-01-07,Mobile Banking,Mobile App,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0176,2025-02-25,Mobile Banking,Chat,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0177,2025-01-22,Home Loan,Phone,Hamilton,Branch queue was too long,-0.05,None,False,Not flagged
+C0178,2025-01-25,Mobile Banking,Chat,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0179,2025-01-16,Personal Loan,Chat,Dunedin,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0180,2025-02-18,Personal Loan,Email,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0181,2025-01-03,Credit Card,Chat,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0182,2025-01-10,Personal Loan,Phone,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0183,2025-01-11,Home Loan,Mobile App,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0184,2025-02-13,Home Loan,Phone,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0185,2025-02-10,Home Loan,Chat,Dunedin,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0186,2025-02-27,Personal Loan,Chat,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0187,2025-02-07,Personal Loan,Mobile App,Wellington,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0188,2025-01-13,Personal Loan,Chat,Christchurch,Branch queue was too long,-0.05,None,False,Not flagged
+C0189,2025-01-23,Savings Account,Chat,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0190,2025-01-18,Mobile Banking,Branch,Christchurch,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0191,2025-02-23,Credit Card,Mobile App,Auckland,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0192,2025-02-10,Personal Loan,Email,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0193,2025-02-10,Home Loan,Mobile App,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0194,2025-02-07,Credit Card,Phone,Christchurch,App was slow during login,-0.3,None,False,Not flagged
+C0195,2025-02-17,Personal Loan,Email,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0196,2025-02-26,Savings Account,Email,Wellington,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0197,2025-01-17,Personal Loan,Mobile App,Dunedin,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0198,2025-01-05,Savings Account,Branch,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0199,2025-01-24,Home Loan,Email,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0200,2025-01-30,Credit Card,Chat,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0201,2025-01-07,Personal Loan,Branch,Dunedin,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0202,2025-01-21,Home Loan,Chat,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0203,2025-02-28,Mobile Banking,Email,Auckland,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0204,2025-01-20,Personal Loan,Chat,Auckland,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0205,2025-01-09,Savings Account,Phone,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0206,2025-01-27,Savings Account,Chat,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0207,2025-02-09,Mobile Banking,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0208,2025-01-29,Savings Account,Branch,Auckland,Could not update my contact details easily,0.433,None,False,Not flagged
+C0209,2025-02-04,Savings Account,Email,Christchurch,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0210,2025-02-24,Personal Loan,Phone,Hamilton,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0211,2025-01-02,Savings Account,Phone,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0212,2025-01-14,Credit Card,Branch,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0213,2025-01-22,Credit Card,Mobile App,Wellington,Could not update my contact details easily,0.433,None,False,Not flagged
+C0214,2025-01-09,Home Loan,Mobile App,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0215,2025-01-09,Mobile Banking,Branch,Wellington,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0216,2025-01-12,Credit Card,Branch,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0217,2025-01-08,Personal Loan,Phone,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0218,2025-02-07,Credit Card,Chat,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0219,2025-01-03,Credit Card,Chat,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0220,2025-01-04,Mobile Banking,Branch,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0221,2025-02-15,Savings Account,Chat,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0222,2025-01-05,Savings Account,Phone,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0223,2025-02-15,Home Loan,Branch,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0224,2025-02-02,Personal Loan,Chat,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0225,2025-02-24,Mobile Banking,Chat,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0226,2025-01-27,Mobile Banking,Email,Hamilton,Could not update my contact details easily,0.433,None,False,Not flagged
+C0227,2025-01-21,Personal Loan,Chat,Hamilton,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0228,2025-02-13,Savings Account,Branch,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0229,2025-01-28,Savings Account,Phone,Auckland,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0230,2025-02-05,Credit Card,Branch,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0231,2025-02-25,Mobile Banking,Branch,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0232,2025-02-06,Credit Card,Branch,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0233,2025-02-24,Mobile Banking,Email,Wellington,Could not update my contact details easily,0.433,None,False,Not flagged
+C0234,2025-02-06,Credit Card,Branch,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0235,2025-02-09,Home Loan,Chat,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0236,2025-01-02,Mobile Banking,Phone,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0237,2025-01-01,Home Loan,Branch,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0238,2025-01-10,Home Loan,Email,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0239,2025-01-30,Credit Card,Phone,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0240,2025-02-19,Personal Loan,Email,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0241,2025-01-11,Mobile Banking,Mobile App,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0242,2025-02-01,Mobile Banking,Phone,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0243,2025-01-08,Mobile Banking,Chat,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0244,2025-02-01,Personal Loan,Chat,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0245,2025-01-04,Mobile Banking,Branch,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0246,2025-02-18,Credit Card,Email,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0247,2025-02-17,Personal Loan,Branch,Christchurch,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0248,2025-02-02,Savings Account,Email,Wellington,Could not update my contact details easily,0.433,None,False,Not flagged
+C0249,2025-01-28,Mobile Banking,Branch,Auckland,App was slow during login,-0.3,None,False,Not flagged
+C0250,2025-01-28,Credit Card,Chat,Auckland,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0251,2025-01-02,Mobile Banking,Chat,Hamilton,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0252,2025-01-06,Personal Loan,Email,Dunedin,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0253,2025-02-03,Savings Account,Phone,Wellington,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0254,2025-01-22,Credit Card,Chat,Christchurch,Could not update my contact details easily,0.433,None,False,Not flagged
+C0255,2025-02-02,Home Loan,Phone,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0256,2025-01-16,Home Loan,Branch,Christchurch,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0257,2025-01-10,Credit Card,Email,Christchurch,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0258,2025-02-18,Credit Card,Email,Hamilton,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0259,2025-01-21,Mobile Banking,Chat,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0260,2025-02-10,Personal Loan,Email,Hamilton,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0261,2025-01-05,Personal Loan,Branch,Dunedin,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0262,2025-02-23,Personal Loan,Chat,Hamilton,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0263,2025-01-25,Personal Loan,Phone,Auckland,Payment notification arrived late,-0.3,None,False,Not flagged
+C0264,2025-01-29,Savings Account,Mobile App,Dunedin,App was slow during login,-0.3,None,False,Not flagged
+C0265,2025-01-10,Mobile Banking,Email,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0266,2025-02-15,Credit Card,Chat,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0267,2025-01-29,Credit Card,Mobile App,Wellington,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0268,2025-02-28,Mobile Banking,Mobile App,Dunedin,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0269,2025-01-04,Personal Loan,Chat,Hamilton,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0270,2025-01-19,Personal Loan,Phone,Christchurch,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0271,2025-02-12,Personal Loan,Mobile App,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0272,2025-01-09,Home Loan,Branch,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0273,2025-02-22,Mobile Banking,Phone,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0274,2025-02-02,Home Loan,Mobile App,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0275,2025-01-22,Personal Loan,Phone,Christchurch,Could not update my contact details easily,0.433,None,False,Not flagged
+C0276,2025-01-05,Savings Account,Email,Wellington,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0277,2025-01-03,Personal Loan,Phone,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0278,2025-01-11,Personal Loan,Mobile App,Wellington,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0279,2025-01-27,Home Loan,Mobile App,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0280,2025-01-15,Personal Loan,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0281,2025-02-27,Mobile Banking,Email,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0282,2025-02-19,Home Loan,Branch,Dunedin,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0283,2025-02-22,Personal Loan,Chat,Dunedin,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0284,2025-02-11,Home Loan,Mobile App,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0285,2025-02-24,Savings Account,Branch,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0286,2025-01-29,Credit Card,Branch,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0287,2025-02-22,Mobile Banking,Email,Hamilton,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0288,2025-02-02,Savings Account,Branch,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0289,2025-01-15,Personal Loan,Email,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0290,2025-02-20,Credit Card,Branch,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0291,2025-02-14,Home Loan,Email,Auckland,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0292,2025-01-02,Home Loan,Chat,Hamilton,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0293,2025-02-03,Personal Loan,Email,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0294,2025-01-04,Savings Account,Phone,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0295,2025-02-23,Home Loan,Chat,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0296,2025-02-06,Savings Account,Mobile App,Dunedin,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0297,2025-01-23,Home Loan,Email,Christchurch,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0298,2025-02-03,Home Loan,Mobile App,Hamilton,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0299,2025-02-05,Personal Loan,Phone,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0300,2025-01-24,Credit Card,Chat,Hamilton,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0301,2025-01-16,Personal Loan,Phone,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0302,2025-02-04,Credit Card,Mobile App,Christchurch,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0303,2025-02-10,Personal Loan,Email,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0304,2025-01-03,Home Loan,Email,Auckland,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0305,2025-01-21,Personal Loan,Email,Auckland,App was slow during login,-0.3,None,False,Not flagged
+C0306,2025-01-31,Personal Loan,Mobile App,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0307,2025-02-25,Personal Loan,Phone,Wellington,App was slow during login,-0.3,None,False,Not flagged
+C0308,2025-02-26,Personal Loan,Branch,Auckland,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0309,2025-02-01,Savings Account,Chat,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0310,2025-02-16,Savings Account,Branch,Dunedin,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0311,2025-02-04,Savings Account,Phone,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0312,2025-01-20,Personal Loan,Branch,Auckland,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0313,2025-01-23,Savings Account,Mobile App,Hamilton,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0314,2025-01-18,Savings Account,Phone,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0315,2025-01-02,Credit Card,Phone,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0316,2025-01-16,Home Loan,Mobile App,Hamilton,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0317,2025-02-08,Personal Loan,Branch,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0318,2025-02-06,Home Loan,Chat,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0319,2025-01-16,Home Loan,Mobile App,Christchurch,Branch queue was too long,-0.05,None,False,Not flagged
+C0320,2025-02-28,Credit Card,Phone,Wellington,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0321,2025-01-14,Mobile Banking,Phone,Christchurch,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0322,2025-02-24,Mobile Banking,Branch,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0323,2025-01-06,Credit Card,Chat,Wellington,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0324,2025-02-27,Personal Loan,Branch,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0325,2025-01-15,Personal Loan,Email,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0326,2025-01-02,Credit Card,Email,Wellington,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0327,2025-01-09,Personal Loan,Mobile App,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0328,2025-02-03,Mobile Banking,Phone,Auckland,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0329,2025-02-11,Savings Account,Chat,Dunedin,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0330,2025-01-09,Credit Card,Chat,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0331,2025-01-28,Mobile Banking,Mobile App,Wellington,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0332,2025-01-11,Mobile Banking,Phone,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0333,2025-02-27,Home Loan,Branch,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0334,2025-01-18,Personal Loan,Phone,Christchurch,Fraud team response was too slow,-0.3,Fraud-related complaint,True,Fraud-related complaint
+C0335,2025-02-11,Home Loan,Branch,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0336,2025-02-16,Home Loan,Mobile App,Dunedin,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0337,2025-01-06,Mobile Banking,Branch,Dunedin,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0338,2025-01-27,Credit Card,Mobile App,Christchurch,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0339,2025-01-19,Mobile Banking,Phone,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0340,2025-01-20,Personal Loan,Chat,Wellington,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0341,2025-01-31,Savings Account,Phone,Auckland,Unauthorised debit appeared overnight,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0342,2025-02-25,Savings Account,Email,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0343,2025-02-02,Personal Loan,Branch,Hamilton,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0344,2025-01-18,Mobile Banking,Phone,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0345,2025-01-25,Savings Account,Email,Wellington,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0346,2025-02-22,Mobile Banking,Chat,Wellington,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0347,2025-02-01,Personal Loan,Mobile App,Christchurch,Refund delay on disputed transaction,0.0,Refund process issue,True,Refund process issue
+C0348,2025-01-02,Mobile Banking,Chat,Hamilton,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0349,2025-01-14,Credit Card,Chat,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0350,2025-02-08,Mobile Banking,Branch,Auckland,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0351,2025-01-28,Savings Account,Branch,Dunedin,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0352,2025-01-03,Home Loan,Branch,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0353,2025-02-05,Savings Account,Phone,Dunedin,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0354,2025-01-18,Personal Loan,Phone,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0355,2025-01-26,Mobile Banking,Mobile App,Auckland,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0356,2025-01-13,Personal Loan,Branch,Dunedin,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0357,2025-01-03,Mobile Banking,Mobile App,Hamilton,App was slow during login,-0.3,None,False,Not flagged
+C0358,2025-02-08,Home Loan,Branch,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0359,2025-01-11,Mobile Banking,Email,Christchurch,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0360,2025-02-23,Savings Account,Mobile App,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0361,2025-01-31,Mobile Banking,Mobile App,Hamilton,Branch queue was too long,-0.05,None,False,Not flagged
+C0362,2025-02-07,Credit Card,Branch,Christchurch,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0363,2025-02-06,Personal Loan,Phone,Dunedin,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0364,2025-02-10,Home Loan,Phone,Dunedin,Payment notification arrived late,-0.3,None,False,Not flagged
+C0365,2025-01-03,Mobile Banking,Chat,Wellington,Could not update my contact details easily,0.433,None,False,Not flagged
+C0366,2025-01-27,Mobile Banking,Phone,Wellington,Scam transfer was not blocked in time,0.0,Scam/fraud risk,True,Scam/fraud risk
+C0367,2025-02-28,Home Loan,Chat,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0368,2025-01-21,Savings Account,Phone,Wellington,Payment notification arrived late,-0.3,None,False,Not flagged
+C0369,2025-01-30,Savings Account,Mobile App,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0370,2025-02-09,Mobile Banking,Branch,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0371,2025-01-15,Savings Account,Email,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0372,2025-01-21,Personal Loan,Branch,Wellington,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0373,2025-01-19,Savings Account,Branch,Dunedin,Branch queue was too long,-0.05,None,False,Not flagged
+C0374,2025-02-22,Credit Card,Mobile App,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0375,2025-01-23,Personal Loan,Email,Christchurch,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0376,2025-01-18,Savings Account,Branch,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0377,2025-01-16,Mobile Banking,Branch,Wellington,Unexpected error caused payment to fail repeatedly,-0.2,System/payment error,True,System/payment error
+C0378,2025-01-04,Home Loan,Phone,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0379,2025-02-13,Credit Card,Chat,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0380,2025-01-27,Home Loan,Phone,Dunedin,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0381,2025-01-21,Savings Account,Chat,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0382,2025-02-04,Personal Loan,Phone,Auckland,Could not update my contact details easily,0.433,None,False,Not flagged
+C0383,2025-03-01,Credit Card,Email,Hamilton,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0384,2025-02-26,Credit Card,Chat,Hamilton,I think this payment error caused duplicate charge,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0385,2025-03-01,Credit Card,Phone,Christchurch,Had to wait too long on customer support,-0.05,None,False,Not flagged
+C0386,2025-02-03,Personal Loan,Branch,Hamilton,Payment notification arrived late,-0.3,None,False,Not flagged
+C0387,2025-02-21,Savings Account,Email,Dunedin,Could not update my contact details easily,0.433,None,False,Not flagged
+C0388,2025-02-15,Credit Card,Branch,Wellington,Branch queue was too long,-0.05,None,False,Not flagged
+C0389,2025-02-13,Home Loan,Phone,Christchurch,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0390,2025-02-22,Home Loan,Email,Dunedin,Unable to reset password quickly,-0.083,None,False,Not flagged
+C0391,2025-01-12,Savings Account,Mobile App,Christchurch,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0392,2025-01-17,Home Loan,Chat,Christchurch,App was slow during login,-0.3,None,False,Not flagged
+C0393,2025-01-20,Savings Account,Email,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0394,2025-02-14,Mobile Banking,Mobile App,Auckland,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0395,2025-01-26,Home Loan,Phone,Auckland,Card delivery took longer than expected,-0.1,None,False,Not flagged
+C0396,2025-01-24,Mobile Banking,Branch,Auckland,Branch queue was too long,-0.05,None,False,Not flagged
+C0397,2025-01-10,Mobile Banking,Email,Wellington,Loan approval process felt delayed,0.0,None,False,Not flagged
+C0398,2025-02-28,Savings Account,Mobile App,Christchurch,Payment notification arrived late,-0.3,None,False,Not flagged
+C0399,2025-02-25,Savings Account,Mobile App,Wellington,Mobile app crashed once during transfer,0.0,None,False,Not flagged
+C0400,2025-01-05,Credit Card,Mobile App,Hamilton,Statement was confusing to understand,-0.3,None,False,Not flagged
+C0401,2025-02-14,Credit Card,Mobile App,Auckland,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0402,2025-02-14,Credit Card,Mobile App,Dunedin,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0403,2025-02-14,Credit Card,Mobile App,Dunedin,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0404,2025-02-14,Credit Card,Email,Christchurch,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0405,2025-02-14,Credit Card,Phone,Wellington,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0406,2025-02-14,Credit Card,Phone,Dunedin,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0407,2025-02-14,Credit Card,Phone,Hamilton,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0408,2025-02-14,Credit Card,Mobile App,Hamilton,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0409,2025-02-14,Credit Card,Mobile App,Auckland,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0410,2025-02-14,Credit Card,Branch,Auckland,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0411,2025-02-14,Credit Card,Branch,Auckland,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0412,2025-02-14,Credit Card,Mobile App,Auckland,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0413,2025-02-14,Credit Card,Chat,Christchurch,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0414,2025-02-14,Credit Card,Mobile App,Auckland,My card was charged twice for the same purchase,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0415,2025-02-14,Credit Card,Chat,Auckland,I saw an unauthorised transaction on my account,0.0,Unauthorised transaction risk,True,Unauthorised transaction risk
+C0416,2025-02-14,Credit Card,Chat,Wellington,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0417,2025-02-14,Credit Card,Chat,Christchurch,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0418,2025-02-14,Credit Card,Chat,Hamilton,Charged twice and still no refund,0.0,Duplicate charge risk,True,Duplicate charge risk
+C0419,2025-02-14,Credit Card,Phone,Dunedin,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
+C0420,2025-02-14,Credit Card,Branch,Auckland,Possible fraud on my credit card,0.0,Fraud-related complaint,True,Fraud-related complaint
